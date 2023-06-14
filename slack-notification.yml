@@ -7,7 +7,7 @@ on:
       - synchronize
     branches:
       - main
-
+      
 jobs:
   slack-notification:
     runs-on: ubuntu-latest

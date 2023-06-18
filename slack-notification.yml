@@ -20,7 +20,7 @@ jobs:
           slack_message: |
             A new pull request has been created: ${{ github.event.pull_request.html_url }}
             Please review and approve the build.
-          slack_channel: project
+          slack_channel: C05CCAN2X3N
           slack_attachments: |
             [{
               "fallback": "Build Approval",
